@@ -1,0 +1,141 @@
+[{
+    "formations": [{
+        "loc": [100, 100],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [400, 400],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }],
+    "money": 100,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [100, 100],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [400, 400],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 250],
+        "texture": "1f418",
+        "size": [30, 30]
+    }],
+    "money": 100,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [100, 100],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [400, 400],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 250],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [600, 200],
+        "texture": "1f46e",
+        "size": [30, 30],
+        "aim_dir": null
+    }],
+    "money": 93,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [100, 100],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [400, 400],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 250],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [600, 200],
+        "texture": "1f46e",
+        "size": [30, 30],
+        "aim_dir": [0.7071067811865475, 0.7071067811865475]
+    }],
+    "money": 93,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [100, 100],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [400, 400],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 250],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [600, 200],
+        "texture": "1f46e",
+        "size": [30, 30],
+        "aim_dir": [0.7071067811865475, 0.7071067811865475]
+    }],
+    "money": 93,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [100, 100],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [400, 400],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 250],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [600, 200],
+        "texture": "1f46e",
+        "size": [30, 30],
+        "aim_dir": [0.7071067811865475, 0.7071067811865475]
+    }],
+    "money": 93,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [100, 100],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [400, 400],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 250],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [600, 200],
+        "texture": "1f46e",
+        "size": [30, 30],
+        "aim_dir": [0.7071067811865475, 0.7071067811865475]
+    }],
+    "money": 93,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}]

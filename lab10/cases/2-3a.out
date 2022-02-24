@@ -1,0 +1,97 @@
+[{
+    "formations": [{
+        "loc": [60, 300],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [200, 200],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }],
+    "money": 200,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [60, 300],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [200, 200],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 0],
+        "texture": "1f418",
+        "size": [30, 30]
+    }],
+    "money": 200,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [60, 300],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [200, 200],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 0],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [450, 70],
+        "texture": "1f477",
+        "size": [30, 30],
+        "aim_dir": null
+    }],
+    "money": 190,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [60, 300],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [200, 200],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 0],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [450, 70],
+        "texture": "1f477",
+        "size": [30, 30],
+        "aim_dir": [0.7071067811865475, 0.7071067811865475]
+    }],
+    "money": 190,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}, {
+    "formations": [{
+        "loc": [60, 300],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [200, 200],
+        "texture": "1f5ff",
+        "size": [50, 50]
+    }, {
+        "loc": [0, 0],
+        "texture": "1f418",
+        "size": [30, 30]
+    }, {
+        "loc": [450, 70],
+        "texture": "1f477",
+        "size": [30, 30],
+        "aim_dir": [0.7071067811865475, 0.7071067811865475]
+    }],
+    "money": 190,
+    "status": "ongoing",
+    "num_allowed_remaining": 1
+}]

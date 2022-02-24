@@ -1,0 +1,9 @@
+{
+    "type": "replay",
+    "map": "zoo7-ugly-path.json",
+    "events": ["TraineeZookeeper", [560,103], [176,131], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "money": 5000,
+    "num_allowed_unfed": 200000,
+    "spawn_interval": 1,
+    "animal_speed": 20
+}

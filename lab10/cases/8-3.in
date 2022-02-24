@@ -1,0 +1,22 @@
+{
+    "type": "replay",
+    "map": "zoo6-many-turns.json",
+    "events": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "ThriftyZookeeper", [540, 102], [300, 140], null, null, null, null, null, null, null, null,
+    "CheeryZookeeper", [460, 80], [460, 90], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "SpeedyZookeeper", [95, 84], [95, 84], [96, 89], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "Demon", [91, 188], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "Demon", [179, 188], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "VHS", [515, 183], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "VHS", [516, 390], null, null, [516, 390], null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "TraineeZookeeper", [349, 184], [397, 240], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "TraineeZookeeper", [397, 194], [349, 60], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "Demon", [496, 294], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "CrazyZookeeper", [215, 390], [285, 440], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "CrazyZookeeper", [151, 386], [151, 30], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "CrazyZookeeper", [285, 397], [210, 420], null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "money": 5000,
+    "num_allowed_unfed": 4000,
+    "spawn_interval": 10,
+    "animal_speed": 20
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<title>
+6.009 Lab 3 - Circuit Solver UI
+</title>
+<link href='fonts.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="common_styles.css">
+<link rel="stylesheet" href="material.min.css">
+<style type="text/css">
+button {background-color:lightgrey;padding: 16px;font-size:16px;border:none;}
+.details {display:none;position:fixed;background-color:white;text-align:left;width:max-content;height:max-content;max-width:600px;z-index:100;top:10px;right:10px;padding: 10px;border-color:black;border-style:solid;border-width:1px;}
+.show {display:block;}
+.message {width:max-content;height:max-content;max-width:800px;}
+</style>
+<h1>
+<center>
+Circuit Solver UI
+</center>
+</h1>
+</head>
+<body>
+<center>
+<select id="selector" class="selectorList" onchange="loadCircuit()">
+<option value="" selected hidden>Click to select a circuit</option>
+<option value="SeriesTriangle_1" >test_01: SeriesTriangle</option>
+<option value="SingleBatteryParallel_1">test_02: SingleBatteryParallel</option>
+<option value="MultiBatteryParallel_1">test_03: MultiBatteryParallel</option>
+<option value="StrayWire_1">test_04: StrayWire</option>
+<option value="ShortCircuit_1">test_05: ShortCircuit</option>
+<option value="Cube_1">test_06: Cube 1</option>
+<option value="Cube_2">test_06: Cube 2</option>
+<option value="Wheatstone_1">test_07: Wheatstone 1</option>
+<option value="Wheatstone_2">test_07: Wheatstone 2</option>
+<option value="UnbalancedWheatstone_1">test_08: UnbalancedWheatstone 1</option>
+<option value="UnbalancedWheatstone_2">test_08: UnbalancedWheatstone 2</option>
+<option value="Ladder_1">test_09: Ladder 1</option>
+<option value="LongSeries_1">test_10: LongSeries 1</option>
+<option value="LongSeries_2">test_10: LongSeries 2</option>
+<option value="LongSeries_3">test_10: LongSeries 3</option>
+<option value="LongSeries_4">test_10: LongSeries 4</option>
+<option value="LongSeries_5">test_10: LongSeries 5</option>
+<option value="LongSeries_6">test_10: LongSeries 6</option>
+<option value="WideParallel_1">test_10: WideParallel 1</option>
+<option value="WideParallel_2">test_10: WideParallel 2</option>
+<option value="WideParallel_3">test_10: WideParallel 3</option>
+<option value="WideParallel_4">test_10: WideParallel 4</option>
+<option value="WideParallel_5">test_10: WideParallel 5</option>
+<option value="WideParallel_6">test_10: WideParallel 6</option>
+<option value="WideParallel_7">test_10: WideParallel 7</option>
+<option value="WideParallel_8">test_10: WideParallel 8</option>
+<option value="WideParallel_9">test_10: WideParallel 9</option>
+<option value="Ladder_Big_1">test_10: Ladder_Big 1</option>
+<option value="Ladder_Big_2">test_10: Ladder_Big 2</option>
+<option value="Ladder_Big_3">test_10: Ladder_Big 3</option>
+<option value="Ladder_Big_4">test_10: Ladder_Big 4</option>
+<option value="Ladder_Big_5">test_10: Ladder_Big 5</option>
+<option value="Wheatstone_Big_1">test_10: Wheatstone_Big 1</option>
+<option value="Wheatstone_Big_2">test_10: Wheatstone_Big 2</option>
+<option value="Wheatstone_Big_3">test_10: Wheatstone_Big 3</option>
+<option value="UnbalancedWheatstone_Big_1">test_10: UnbalancedWheatstone_Big 1</option>
+<option value="UnbalancedWheatstone_Big_2">test_10: UnbalancedWheatstone_Big 2</option>
+<option value="UnbalancedWheatstone_Big_3">test_10: UnbalancedWheatstone_Big 3</option>
+<option value="Irodov_1">test_11: Irodov 1</option>
+<option value="Irodov_2">test_11: Irodov 2</option>
+<option value="Irodov_3">test_11: Irodov 3</option>
+<option value="Irodov_4">test_11: Irodov 4</option>
+<option value="Irodov_5">test_11: Irodov 5</option>
+<option value="Irodov_6">test_11: Irodov 6</option>
+<option value="Irodov_7">test_11: Irodov 7</option>
+<option value="Irodov_8">test_11: Irodov 8</option>
+<option value="Irodov_9">test_11: Irodov 9</option>
+<option value="Irodov_10">test_11: Irodov 10</option>
+<option value="Irodov_11">test_11: Irodov 11</option>
+</select>
+<br>
+<br>
+<button onclick="runCode()">Run Code</button>
+<br>
+<br>
+<center id="message" class="message">
+</center>
+<div id="details" class="details">
+</div>
+<br>
+<br>
+<div id="circuit">
+</div>
+<script src="jquery.js"></script>
+<script src="ui.js"></script>
+</body>
+
+</html>
